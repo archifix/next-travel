@@ -1,0 +1,12 @@
+.navigate{
+    @apply flex items-center justify-center;
+
+}
+
+.navigate h1{
+  @apply text-lg text-red-700
+  }
+
+.menu{
+  @apply flex flex-col justify-end
+  }
