@@ -1,12 +1,22 @@
 .navigate{
-    @apply flex items-center justify-center;
+    @apply flex flex-col justify-center;
+    background: url(/1.jpg);
+    // height: ;
+    width: auto;
+    height: 977px;
 
 }
 
-.navigate h1{
-  @apply text-lg text-red-700
+.menu{
+  @apply flex justify-center items-baseline
+
+ 
   }
 
-.menu{
-  @apply flex flex-col justify-end
+.menu h1{
+       @apply text-lg text-black font-bold
+    }
+
+.title{
+  @apply flex flex-col justify-center items-center uppercase
   }

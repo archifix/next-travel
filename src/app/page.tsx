@@ -1,4 +1,5 @@
 import "./styles/resets.scss"
+import "@/app/styles/global.scss"
 
 const Home = () => {
   return (
